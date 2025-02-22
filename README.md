@@ -43,9 +43,9 @@ while True:
     if x == '2':
         os.system("cls") 
         print("WHEBHOOK SENDER\n")
-        url = input("webhook URL:(https://discord.com/api/webhooks/1342704715372433500/V_tYo7eTy0q5QXtXD99TEI0VX6b3eKxJumNydXYSXCxxYnRV5jsXhSNK2Ic27M1BYK5c)
-        message = input("Webhook URL: ntm")
-        name = input ("Webhook URL :https://discord.com/api/webhooks/1342704715372433500/V_tYo7eTy0q5QXtXD99TEI0VX6b3eKxJumNydXYSXCxxYnRV5jsXhSNK2Ic27M1BYK5c ")
+        url = input("webhook URL: ")
+        message = input("Webhook URL: ")
+        name = input ("Webhook URL : ")
         
         data = {
             "content": message,
@@ -61,4 +61,4 @@ while True:
             print("ERROR SENDING WEBHOOK")
 
         print() 
-        pause = input("Press enter to return...")
+        pause = input("Press enter to return...") 
